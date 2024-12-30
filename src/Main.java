@@ -14,7 +14,7 @@ public class Main {
         q = 27.12;
         short w;
         w = -159;
-        System.out.println(" значение переменной 'a' с типом int равно " + a);
+        System.out.println("значение переменной 'a' с типом int равно " + a);
         System.out.println(" значение переменной 'b' с типом byte равно " + b);
         System.out.println(" значение переменной 'c' с типом short равно " + c);
         System.out.println(" значение переменной 'd' с типом long равно " + d);
@@ -29,10 +29,10 @@ public class Main {
         Katy = 30;
         int result;
         result = 480 / (Luda + Anna + Katy);
-        System.out.println(" на каждого ученика расчитано " + result + " листов бумаги");
+        System.out.println("На каждого ученика расчитано " + result + " листов бумаги");
         byte bottle;
         bottle = 16 / 2;
-        System.out.println(" За 1 минуту машина произвела " + bottle + " штук бутылок");
+        System.out.println("За 1 минуту машина произвела " + bottle + " штук бутылок");
         short bottle2;
         bottle2 = 8 * 20;
         System.out.println(" За 20 минут машина произвела " + bottle2 + " штук бутылок");
@@ -45,5 +45,12 @@ public class Main {
         int bottle5;
         bottle5 = 8*60*24*30;
         System.out.println(" За месяц машина произвела " + bottle5 + " штук бутылок");
+        byte school;
+        school = 120 / (2 + 4);
+        byte colorW;
+        colorW = 20 * 2;
+        byte colorG;
+        colorG = 20 * 4;
+        System.out.println("В школе, где " + school + " классов, нужно " + colorW + " банок белой краски и " + colorG + " банок коричневой краски");
     }
 }
