@@ -21,11 +21,11 @@ public class Main {
         System.out.println(" значение переменной 'g' с типом float равно " + g);
         System.out.println(" значение переменной 'q' с типом double равно " + q);
         System.out.println(" значение переменной 'w' с типом short равно " + w);
-        int Luda;
+        byte Luda;
         Luda = 23;
-        int Anna;
+        byte Anna;
         Anna = 27;
-        int Katy;
+        byte Katy;
         Katy = 30;
         int result;
         result = 480 / (Luda + Anna + Katy);
