@@ -30,5 +30,20 @@ public class Main {
         int result;
         result = 480 / (Luda + Anna + Katy);
         System.out.println(" на каждого ученика расчитано " + result + " листов бумаги");
+        byte bottle;
+        bottle = 16 / 2;
+        System.out.println(" За 1 минуту машина произвела " + bottle + " штук бутылок");
+        short bottle2;
+        bottle2 = 8 * 20;
+        System.out.println(" За 20 минут машина произвела " + bottle2 + " штук бутылок");
+        short bottle3;
+        bottle3 = 8 * 60 * 24;
+        System.out.println(" За сутки машина произвела " + bottle3 + " штук бутылок");
+        int bottle4;
+        bottle4 = 8*60*24*3;
+        System.out.println(" За 3 дня машина произвела " + bottle4 + " штук бутылок");
+        int bottle5;
+        bottle5 = 8*60*24*30;
+        System.out.println(" За месяц машина произвела " + bottle5 + " штук бутылок");
     }
 }
