@@ -66,5 +66,20 @@ public class Main {
         result3 = result2 / 1000;
         System.out.println(" вес такого спортзавтрака " + result2 + " граммов ");
         System.out.println(" вес такого спортзавтрака " + result3 + " килограмм ");
+        int sbros;
+        sbros = 7 * 1000;
+        int low;
+        low = 250;
+        int high;
+        high = 500;
+        int result4;
+        result4 = sbros / low;
+        int result5;
+        result5 = sbros / high;
+        int result6;
+        result6 = (result4 + result5) / 2;
+        System.out.println(" при потери " + low + " граммов в день, потребуется " + result4 + " дней ");
+        System.out.println(" при потери " + high + " граммов в день, потребуется " + result5 + " дней ");
+        System.out.println(" при потери в среднем 250-500 граммов в день, потребуется " + result6 + " дней ");
     }
 }
