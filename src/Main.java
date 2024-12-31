@@ -52,5 +52,19 @@ public class Main {
         byte colorG;
         colorG = 20 * 4;
         System.out.println("В школе, где " + school + " классов, нужно " + colorW + " банок белой краски и " + colorG + " банок коричневой краски");
+        int banana;
+        banana = 5 * 80;
+        int milk;
+        milk = (200 / 100) * 105;
+        int ice;
+        ice = 2 * 100;
+        int eggs;
+        eggs = 4 * 70;
+        int result2;
+        result2 = banana + milk + ice + eggs;
+        int result3;
+        result3 = result2 / 1000;
+        System.out.println(" вес такого спортзавтрака " + result2 + " граммов ");
+        System.out.println(" вес такого спортзавтрака " + result3 + " килограмм ");
     }
 }
